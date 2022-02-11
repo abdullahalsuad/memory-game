@@ -3,12 +3,12 @@ import './App.css'
 import SingleCard from './component/SigleCard'
 
 const cardImages = [
-  { "src": "/img/helmet-1.png" , matched: false },
-  { "src": "/img/potion-1.png" , matched: false },
-  { "src": "/img/ring-1.png" , matched: false },
-  { "src": "/img/scroll-1.png" , matched: false },
-  { "src": "/img/shield-1.png" , matched: false },
-  { "src": "/img/sword-1.png" , matched: false },
+  { "src": "/img/img-1.png" , matched: false },
+  { "src": "/img/img-2.png" , matched: false },
+  { "src": "/img/img-3.png" , matched: false },
+  { "src": "/img/img-4.png" , matched: false },
+  { "src": "/img/img-5.png" , matched: false },
+  { "src": "/img/img-6.png" , matched: false },
 ]
 
 function App() {
@@ -65,7 +65,7 @@ const resetTurn = () => {
 
   return (
     <div className="App">
-      <h1>Magic Match</h1>
+      <h1>Flip <b className='The'>The</b> Galaxy </h1> 
       <button onClick={shuffleCards}>New Game</button>
 
       <div className="card-grid">
