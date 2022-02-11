@@ -87,7 +87,12 @@ const resetTurn = () => {
           />
         ))}
       </div>
-      <p style={{'color':'Blue'}}>Turns: <b style={{'color':'red'}}>{turns}</b></p>
+      <p style={{'color':'#1cf191'}}>Turns: <b style={{'color':'#0fe6cc'}}>{turns}</b></p>
+    
+    <hr />
+      <div style={{textAlign:'center'}}>
+          <p>© Created By :- <span style={{color:"#18f297"}}><a href="http://abdullahalsuad.netlify.app/" target="_blank" rel="noreferrer" style={{color:"#18f297",textDecoration:"none"}}>Abdullah Al Suad</a></span></p>
+      </div>
     </div>
   );
 }
