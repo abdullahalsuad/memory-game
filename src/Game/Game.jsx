@@ -96,7 +96,7 @@ function Game() {
           © Created By :-{" "}
           <span style={{ color: "#18f297" }}>
             <a
-              href=""
+              href="/"
               target="_blank"
               rel="noreferrer"
               style={{ color: "#18f297", textDecoration: "none" }}
